@@ -1,38 +1,87 @@
-/*style for bouncing*/
+html,
+body {
+  height: 100%;
+  margin: 0
+}
+
+/*style for dvd */
 #circle{
-    width:50px;
-    height:100px;
-    background:red;
-    border-radius:50%;
+    width:5%;
+    height: 5%;
+    background:black;
     margin-top:100px;
   }
 p{
   text-align:center;
   color:yellow;
   }
-.bounce{
-  animation:bounce 15s linear 100;
+.dvd{
+  animation:dvd 2s linear 100;
   }
- @keyframes bounce{
+ @keyframes dvd{
     0%{
-      transform:translate(0px,0px);
+      transform:translate(20px,20px);
 
       }
     25%{
-       transform:translate(50vh,50vw);
+       transform:translate(50px,60px);
 
       }
     50%{
-       transform:translate(100vh,0px);
+       transform:translate(80px,30px);
 
       }
      75%{
-       transform:translate(50vh,50vw);
+       transform:translate(25px,60px);
 
 
        }
    100%{
-      transform:translate(0px,0px);
+      transform:translate(0px,0pxs);
 
       }
    }
+
+#phone {
+  width: 55%;
+  margin-bottom: auto;
+}
+#speakers {
+  width: 70%;
+}
+#synth {
+  width: 80%;
+  align: center;
+}
+#cassette {
+  float: right;
+  width: 80%;
+}
+#camera {
+  padding-top: 0vh;
+  width: 60%;
+  float: right;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.box .row {
+padding-top: 5vh;
+padding-bottom: 5vh;
+}
+
+.box .row.header {
+  flex: 0 1 auto;
+}
+
+.box .row.content {
+  flex: 1 1 auto;
+}
+
+.box .row.footer {
+  flex: 0 1 auto;
+}
