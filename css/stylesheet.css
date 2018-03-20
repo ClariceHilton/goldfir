@@ -20,7 +20,7 @@ p{
   }
  @keyframes dvd{
     0%{
-      transform:translate(10vw,5vh);
+      transform:translate(1vw,5vh);
 
       }
     25%{
@@ -28,7 +28,7 @@ p{
 
       }
     50%{
-       transform:translate(5vw,20vh);
+       transform:translate(1vw,20vh);
 
       }
      75%{
@@ -49,8 +49,8 @@ p{
 #speakers {
   width: 70%;
 }
-#synth {
-  width: 100%;
+#mic {
+  width: 80%;
   align: center;
 }
 #cassette {
@@ -92,5 +92,5 @@ padding-bottom: 5vh;
   display: none;
 }
 .woo {
-  
+
 }
