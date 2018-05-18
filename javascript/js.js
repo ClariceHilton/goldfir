@@ -11,6 +11,7 @@ $(function(){
  });
 })
 });
+
 $(function(){
  $("#camera").click(function(){
  $('.dvd').hide(); //hide the button
@@ -21,6 +22,7 @@ $(function(){
   $('.instagram').show();
 })
 });
+
 $(function(){
  $("#cassette").click(function(){
  $('.dvd').hide(); //hide the button
@@ -31,6 +33,7 @@ $(function(){
  $('.youtube').show();
 })
 });
+
 $(function(){
  $("#phone").click(function(){
  $('.dvd').hide(); //hide the button
@@ -41,6 +44,7 @@ $(function(){
  $('.contact').show();
 })
 });
+
 $(function(){
  $("#mic").click(function(){
  $('.dvd').hide(); //hide the button
@@ -51,6 +55,7 @@ $(function(){
  $('.contact').hide();
 })
 });
+
 $( document ).ready(function() {
     console.log( "ready!" );
 var box = document.getElementById('dvd'),
