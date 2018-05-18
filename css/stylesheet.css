@@ -10,7 +10,7 @@
 
 }
 body {
-  background-image: url("../images/background5.png");
+  background-image: url("../images/background6.png");
 }
 /*style for dvd */
 /*#circle{
@@ -115,6 +115,12 @@ padding-bottom: 5vh;
   opacity: 0.75;
 
   text-align: center;
+}
+.gigs{
+  display: none;
+}
+#tiger{
+  width: 100%;
 }
 body {
   overflow: hidden;

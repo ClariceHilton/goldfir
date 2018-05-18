@@ -41,6 +41,16 @@ $(function(){
  $('.contact').show();
 })
 });
+$(function(){
+ $("#mic").click(function(){
+ $('.dvd').hide(); //hide the button
+ $('.spotify').hide();
+ $('.instagram').hide();
+ $('.youtube').hide();
+ $('.gigs').show();
+ $('.contact').hide();
+})
+});
 $( document ).ready(function() {
     console.log( "ready!" );
 var box = document.getElementById('dvd'),
