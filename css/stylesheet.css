@@ -6,7 +6,7 @@ body {
 }
 
 /*style for dvd */
-#circle{
+/*#circle{
     width:50%;
     height: 50%;
     background:black;
@@ -41,25 +41,26 @@ p{
 
       }
    }
-
+*/
 #phone {
-  width: 55%;
+  width: 45%;
   margin-bottom: auto;
 }
 #speakers {
-  width: 70%;
+  width: 60%;
+  float: right;
 }
 #mic {
-  width: 80%;
+  width: 60%;
   align: center;
 }
 #cassette {
-  float: right;
+  float: left;
   width: 80%;
 }
 #camera {
   padding-top: 0vh;
-  width: 60%;
+  width: 50%;
   float: right;
 }
 
@@ -91,6 +92,32 @@ padding-bottom: 5vh;
 .instagram {
   display: none;
 }
-.woo {
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
 
+#dvd {
+  position: absolute;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 176px;
+
+}
+
+#dvd:before {
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e900";
+  font-size: 175px;
 }
