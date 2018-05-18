@@ -3,6 +3,9 @@ $(function(){
  $("#speakers").click(function(){
  $('.dvd').hide(); //hide the button
  $('.instagram').hide();
+ $('.youtube').hide();
+ $('.contact').hide();
+ $('.gigs').hide();
  $('.spotify').toggle('slow', function() {
    // Animation complete.
  });
@@ -12,10 +15,32 @@ $(function(){
  $("#camera").click(function(){
  $('.dvd').hide(); //hide the button
  $('.spotify').hide();
- $('.instagram').show();
+  $('.youtube').hide();
+  $('.contact').hide();
+  $('.gigs').hide();
+  $('.instagram').show();
 })
 });
-
+$(function(){
+ $("#cassette").click(function(){
+ $('.dvd').hide(); //hide the button
+ $('.spotify').hide();
+ $('.instagram').hide();
+ $('.contact').hide();
+ $('.gigs').hide();
+ $('.youtube').show();
+})
+});
+$(function(){
+ $("#phone").click(function(){
+ $('.dvd').hide(); //hide the button
+ $('.spotify').hide();
+ $('.instagram').hide();
+ $('.youtube').hide();
+ $('.gigs').hide();
+ $('.contact').show();
+})
+});
 $( document ).ready(function() {
     console.log( "ready!" );
 var box = document.getElementById('dvd'),

@@ -1,10 +1,17 @@
-html,
-body {
-  height: 100%;
-  margin: 0;
-  background: black;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@media only screen and (min-width: 600px) {
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    /*background: black;*/
 
+  }
+
+}
+body {
+  background-image: url("../images/background5.png");
+}
 /*style for dvd */
 /*#circle{
     width:50%;
@@ -51,8 +58,7 @@ p{
   float: right;
 }
 #mic {
-  width: 60%;
-  align: center;
+  width: 100%;
 }
 #cassette {
   float: left;
@@ -86,11 +92,29 @@ padding-bottom: 5vh;
 .box .row.footer {
   flex: 0 1 auto;
 }
+.youtube {
+  display: none;
+  overflow-y: scroll!important;
+  position:relative;
+  height: 300px;
+}
 .spotify {
   display: none;
 }
 .instagram {
   display: none;
+}
+.contact {
+  display: none;
+}
+.wordBlock {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.6vw;
+  color: black;
+  background-color: white;
+  opacity: 0.75;
+
+  text-align: center;
 }
 body {
   overflow: hidden;
@@ -100,6 +124,7 @@ body {
 }
 
 #dvd {
+
   position: absolute;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -120,4 +145,47 @@ body {
   -moz-osx-font-smoothing: grayscale;
   content: "\e900";
   font-size: 175px;
+}
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 40px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(250, 250,210,0.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,0.9);
+}
+@media only screen and (max-width: 600px) {
+    body {
+
+    }
+    #phone {
+      width: 50%;
+      margin-bottom: auto;
+    }
+    #speakers {
+      width: 80%;
+      float: right;
+    }
+    #mic {
+      width: 100%;
+    }
+    #cassette {
+      float: left;
+      width: 100%;
+    }
+    #camera {
+      padding-top: 0vh;
+      width: 80%;
+      float: right;
+    }
+    #dvd {
+      width: 200px;
+      height:88px;
+
+    }
+    .wordBlock {
+      font-size: 8vw;
+
+    }
 }
