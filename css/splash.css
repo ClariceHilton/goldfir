@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  margin: none!important;
+}
+.btn{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
+#myVideo {
+  position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+}
+.mute {
+  position: fixed;
+   background: rgba(0, 0, 0, 0);
+   color: #f1f1f1;
+   padding: 20px;
+   border: none;
+}
+#logo {
+  position: fixed;
+  bottom: 0;
+  border: none;
+  background: none;
+  width : 30%;
+}
