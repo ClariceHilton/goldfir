@@ -1,6 +1,11 @@
 
 $("video").prop('muted', true);
 
+$(function(){
+ $("#logo").click(function(){
+   $(".menu").css("display","block");
+})
+});
 
   $(function(){
     $("#mute").click( function (){
@@ -59,7 +64,7 @@ $(function(){
 });
 
 $(function(){
- $("#mic").click(function(){
+ $("#synth").click(function(){
  $('.dvd').hide(); //hide the button
  $('.spotify').hide();
  $('.instagram').hide();

@@ -9,30 +9,33 @@
 
 }
 body {
-  background-image: url("../images/background7.png");
+
   background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
+.menu {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+display: none;
+}
 #phone {
-  width: 45%;
+  width: 35%;
   margin-bottom: auto;
 }
 #speakers {
-  width: 60%;
-  float: right;
+  width: 65%;
 }
-#mic {
-  width: 100%;
+#synth {
+  width: 80%;
+  padding-top: 15%;
 }
 #cassette {
-  float: left;
   width: 80%;
 }
 #camera {
   padding-top: 0vh;
-  width: 50%;
-  float: right;
+  width: 60%;
 }
 
 .box {
