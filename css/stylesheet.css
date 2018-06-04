@@ -4,20 +4,19 @@
   body {
     height: 100%;
     margin: 0;
-
   }
 
 }
 body {
 
   background-repeat: no-repeat;
-    background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 .menu {
   display: block;
-margin-left: auto;
-margin-right: auto;
-display: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
 }
 #phone {
   width: 35%;
@@ -78,13 +77,9 @@ padding-bottom: 5vh;
 .contact2 {
   display: table!important;
   height: 100%;
-  padding-left: 10%
+
 }
 .wordBlock {
-  font-family: 'Roboto', sans-serif;
-  font-size: 3vw;
-  color: #ff7600;
-  opacity: 0.75;
 
   display: table-cell;
   vertical-align: middle;
@@ -95,7 +90,7 @@ padding-bottom: 5vh;
   display: none;
 }
 #tiger{
-  width: 70%;
+  width: 50%;
 }
 body {
   overflow: hidden;
@@ -111,11 +106,15 @@ body {
   margin-right: auto;
   z-index: 1;
 }
-.emails {
-  width: 40%;
-  float: left;
+.email {
+  display: block;
+  height: 10vh;
+  padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
 }
-//splashpage
+
+/*splashpage*/
 
 .btn{
     position: fixed;
@@ -192,8 +191,5 @@ z-index: -1;
       float: right;
     }
 
-    .wordBlock {
-      font-size: 8vw;
 
-    }
 }
