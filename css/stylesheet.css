@@ -13,28 +13,28 @@ body {
   background-size: 100% 100%;
 }
 .menu {
-  display: block;
   margin-left: auto;
   margin-right: auto;
   display: none;
 }
 #phone {
-  width: 35%;
+  width: 45%;
+  padding-left: 25%;
   margin-bottom: auto;
 }
 #speakers {
-  width: 65%;
+  width: 100%;
 }
 #synth {
-  width: 80%;
+  width: 100%;
   padding-top: 15%;
 }
 #cassette {
-  width: 80%;
+  width: 100%;
 }
 #camera {
-  padding-top: 0vh;
-  width: 60%;
+  padding-left: 15%;
+  width: 70%;
 }
 
 .box {
@@ -99,13 +99,18 @@ body {
   margin: 0;
 }
 
-#logo {
+img.middleItems {
   width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   z-index: 1;
 }
+#james {
+  margin-left: 11%;
+}
+
+
 .email {
   display: block;
   height: 10vh;
@@ -152,6 +157,14 @@ z-index: -1;
 }
 #dates {
   width: 100%;
+}
+#avatar {
+  width: 100%;
+}
+.menuContainer {
+  padding-left: 1%;
+  width: 10%;
+  display: inline-block;
 }
 
 /* width */

@@ -1,7 +1,7 @@
 // logo clicl
 $(function(){
  $("#logo").click(function(){
-   $(".menu").css("display","block");
+   $(".menu").css("display","inline-block");
 })
 });
 // mute video on load
@@ -9,7 +9,7 @@ $("video").prop('muted', true);
 
 // mute and unmute background
   $(function(){
-    $("#mute").click( function (){
+    $("#mute, #myVideo").click( function (){
       console.log("here");
       if( $("video").prop('muted') ) {
             $("video").prop('muted', false);
