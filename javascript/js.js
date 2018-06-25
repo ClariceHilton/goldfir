@@ -37,7 +37,18 @@ function makeBigger() {
 function returnToOriginalSize() {
     $(this).css({height: "", width: ""});
 }
-
+$(function(){
+ $("#james, #avatar").click(function(){
+ $('.spotify').hide(); //hide the button
+ $('.instagram').hide();
+ $('.youtube').hide();
+ $('.contact').hide();
+ $('.gigs').hide();
+ $('.dvd').toggle('slow', function() {
+   // Animation complete.
+ });
+})
+});
 
 //speaker click
 $(function(){
